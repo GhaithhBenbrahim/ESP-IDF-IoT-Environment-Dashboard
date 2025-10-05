@@ -1,0 +1,145 @@
+/* General Body Styling */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1d3557;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
+    font-size: 2.5em;
+    color: #1d3557;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #1d3557;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #1d3557;
+}
+
+h4 {
+    font-size: 1em;
+    color: #1d3557;
+    margin: 6px 0;
+}
+
+/* Text Colors */
+.gr { color: #2ecc71; }
+.rd { color: #e74c3c; }
+
+/* Inline elements */
+#ap_ssid, #local_time,
+#latest_firmware, #latest_firmware_label,
+#temperature_reading, #humidity_reading,
+#connected_ap, #connected_ap_label,
+#wifi_connect_ip, #wifi_connect_netmask, #wifi_connect_gw,
+#ip_address_label, #netmask_label, #gateway_label {
+    display: inline;
+    color: #1d3557;
+    font-weight: 500;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input[type="button"] {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    line-height: 2;
+    padding: 0 15px;
+    color: #ffffff;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #0272b7, #1d3557);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2), -4px -4px 8px rgba(255,255,255,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="button"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.25), -6px -6px 12px rgba(255,255,255,0.1);
+}
+
+input[type="button"]:active {
+    transform: translateY(1px);
+    box-shadow: inset 3px 3px 6px rgba(0,0,0,0.2), inset -3px -3px 6px rgba(255,255,255,0.1);
+}
+
+#disconnect_wifi {
+    display: none;
+}
+
+/* Card Styling */
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    padding: 20px 25px;
+    margin: 20px auto;
+    max-width: 500px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+}
+
+/* Input Fields */
+.input-field {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #0272b7;
+    box-shadow: 0 0 8px rgba(2, 114, 183, 0.3);
+}
+
+/* Checkbox Row */
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0 12px 0;
+}
+
+/* Status and Error Messages */
+.status-msg {
+    color: #2ecc71;
+    font-weight: 600;
+}
+
+.error-msg {
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+/* Labels */
+label {
+    font-weight: 500;
+}
