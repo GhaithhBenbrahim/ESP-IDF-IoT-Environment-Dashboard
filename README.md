@@ -6,7 +6,7 @@
 
 ## 📹 Demo Video
 
-[Link to Demo Video (Placeholder)]
+[![Video Title](https://img.youtube.com/vi/hNWZz0DRA04/maxresdefault.jpg)](https://youtu.be/hNWZz0DRA04)
 
 ---
 
