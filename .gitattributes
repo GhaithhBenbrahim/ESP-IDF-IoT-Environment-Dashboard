@@ -1,0 +1,8 @@
+# Ignore build and generated files from language statistics
+build/* linguist-vendored
+
+# Ignore assembly and linker scripts from stats
+*.S linguist-vendored
+*.s linguist-vendored
+*.asm linguist-vendored
+*.ld linguist-vendored
