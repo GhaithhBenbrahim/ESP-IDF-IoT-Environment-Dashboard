@@ -6,7 +6,7 @@
 
 ## 📹 Demo Video
 
-[![Video Title](https://img.youtube.com/vi/hNWZz0DRA04/maxresdefault.jpg)](https://youtu.be/hNWZz0DRA04)
+[![testing demo](https://img.youtube.com/vi/hNWZz0DRA04/0.jpg)](https://youtu.be/hNWZz0DRA04)
 
 ---
 
