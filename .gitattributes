@@ -1,8 +1,21 @@
-# Ignore build and generated files from language statistics
+# ============================
+# Exclude generated / non-source files from GitHub language stats
+# ============================
+
+# Ignore all build artifacts
 build/* linguist-vendored
 
-# Ignore assembly and linker scripts from stats
+# Ignore generated CMake files
+CMakeFiles/* linguist-vendored
+*.cmake linguist-vendored
+CMakeCache.txt linguist-vendored
+
+# Ignore assembly and linker scripts
 *.S linguist-vendored
 *.s linguist-vendored
 *.asm linguist-vendored
 *.ld linguist-vendored
+
+# Optional: ignore SDK config files
+sdkconfig linguist-vendored
+sdkconfig.old linguist-vendored
