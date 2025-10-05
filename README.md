@@ -53,7 +53,7 @@ This project implements an ESP32-based smart environment monitor featuring a mod
 
 ## 🔌 Circuit Diagram
 
-![Circuit Diagram](circuit_diagram_placeholder.png)
+![Circuit Diagram](circuit_diagram_placeholder.jpg)
 
 ---
 
